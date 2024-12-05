@@ -1,0 +1,23 @@
+.orders-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders-list th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .orders-list-container .completed {
+    color: green;
+  }
+  
+  .orders-list-container .pending {
+    color: orange;
+  }
+  
+  .orders-list-container .approved {
+    color: blue;
+  }
+  
